@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Keaji</title>
+    <title>Hoops Academy</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{asset('asset')}}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -33,9 +33,8 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{asset('asset')}}/index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Keaji <sup>#kurirbike</sup></div>
+                <div class="sidebar-brand-text mx-3">HOOPS</div>
             </a>
 
             <!-- Divider -->
@@ -61,31 +60,14 @@
                 <a class="nav-link collapsed" href="{{asset('asset')}}/#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Person</span>
-                </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="/profile">Profile</a>
-                        <a class="collapse-item" href="/album">Album</a>
-                        <a class="collapse-item" href="/user">User</a>
-                        <a class="collapse-item" href="/product">Test</a>
-                        <a class="collapse-item" href="/mahasiswa">Hoops Academy</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="{{asset('asset')}}/#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
                     <span>Hoops Academy</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Components:</h6>
-                        <a class="collapse-item" href="/product">Test</a>
                         <a class="collapse-item" href="/mahasiswa">Mahasiswa</a>
                         <a class="collapse-item" href="/dosen">Dosen</a>
+                        <a class="collapse-item" href="/matakuliah">Mata Kuliah</a>
                     </div>
                 </div>
             </li>
@@ -294,7 +276,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="{{asset('asset')}}/#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Keaji</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hoops Academy</span>
                                 <img class="img-profile rounded-circle"
                                     src="{{asset('asset')}}/img/undraw_profile.svg">
                             </a>
