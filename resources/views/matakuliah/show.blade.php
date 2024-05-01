@@ -19,5 +19,5 @@
         </div>
     </div>
 
-    <a href="/matakuliah/{{$matakuliah->kodeMk}}/edit" type="button" class="btn btn-warning">Edit</a>
+    <a href="/matakuliah/{{$matakuliah->id}}/edit" type="button" class="btn btn-warning">Edit</a>
 @endsection

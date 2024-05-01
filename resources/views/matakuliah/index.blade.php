@@ -27,13 +27,13 @@
                     <tr>
                         <td class="align-middle" style="text-align: center;">{{ $loop->iteration }}</td>
                         <td class="align-middle">{{ $rs->namaMk }}</td>
-                        <td class="align-middle">{{ $rs->kodeMk }}</td>
+                        <td class="align-middle">{{ $rs->id }}</td>
                         <td class="align-middle">{{ $rs->namaDsn }}</td>
                         <td class="align-middle">
                             <div role="group" style="text-align: center;">
-                                <a href="{{ route('matakuliah.show', $rs->kodeMk) }}" type="button" class="btn btn-secondary">Detail</a>
-                                <a href="{{ route('matakuliah.edit', $rs->kodeMk)}}" type="button" class="btn btn-warning">Edit</a>
-                                <form action="{{ route('matakuliah.destroy', $rs->kodeMk) }}" method="POST" type="button" class="btn btn-danger p-0" onsubmit="return confirm('Delete?')">
+                                <a href="{{ route('matakuliah.show', $rs->id) }}" type="button" class="btn btn-secondary">Detail</a>
+                                <a href="{{ route('matakuliah.edit', $rs->id)}}" type="button" class="btn btn-warning">Edit</a>
+                                <form action="{{ route('matakuliah.destroy', $rs->id) }}" method="POST" type="button" class="btn btn-danger p-0" onsubmit="return confirm('Delete?')">
                                     @csrf
                                     @method('DELETE')
                                     <button class="btn btn-danger m-0">Delete</button>

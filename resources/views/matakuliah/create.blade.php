@@ -8,7 +8,7 @@
         <div class="row mb-3">
             <div class="row mb-3">
                 <div class="col">
-                    <input type="text" name="kodeMk" class="form-control" placeholder="Kode Mata Kuliah" required>
+                    <input type="text" name="id" class="form-control" placeholder="Kode Mata Kuliah" required>
                 </div>
                 <div class="col">
                     <input type="text" name="namaMk" class="form-control" placeholder="Nama Mata Kuliah" required>

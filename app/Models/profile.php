@@ -5,13 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
  
-class Matakuliah extends Model
+class profile extends Model
 {
     use HasFactory;
-    protected $table = 'matakuliah';
+    protected $table = 'dosen';
     protected $fillable = [
-        'id',
-        'namaMk',
+        'kodeDsn',
         'namaDsn',
+        'emailDsn',
+        'teleponDsn',
+        'fotoDsn',
+        'NIDN',
     ];
 }

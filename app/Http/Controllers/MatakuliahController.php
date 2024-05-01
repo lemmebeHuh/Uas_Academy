@@ -12,7 +12,7 @@ class MatakuliahController extends Controller
      */
     public function index()
     {
-        $matakuliah = Matakuliah::orderBy('kodeMk')->get();
+        $matakuliah = Matakuliah::orderBy('id')->get();
  
         return view('matakuliah.index', compact('matakuliah'));
     }

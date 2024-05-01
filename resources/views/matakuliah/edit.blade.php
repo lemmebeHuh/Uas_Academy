@@ -3,12 +3,12 @@
 @section('MainContent')
     <h1 class="mb-0">Edit Mata Kuliah</h1>
     <hr />
-    <form action="{{ route('matakuliah.update', $matakuliah->kodeMk) }}" method="POST">
+    <form action="{{ route('matakuliah.update', $matakuliah->id) }}" method="POST">
         @csrf
         @method('PUT')
         <div class="row mb-3">
             <div class="col">
-                <input type="text" name="kodeMk" class="form-control" placeholder="Kode Mata Kuliah" value="{{ $matakuliah->kodeMk }}">
+                <input type="text" name="id" class="form-control" placeholder="Kode Mata Kuliah" value="{{ $matakuliah->id }}">
             </div>
             <div class="col">
                 <input type="text" name="namaMk" class="form-control" placeholder="Nama Mata Kuliah" value="{{ $matakuliah->namaMk }}">

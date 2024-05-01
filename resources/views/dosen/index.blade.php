@@ -1,4 +1,4 @@
-@extends('index')
+@extends('admin')
  
 @section('MainContent')
     <div class="d-flex align-items-center justify-content-between">
